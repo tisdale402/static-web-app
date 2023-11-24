@@ -1,12 +1,90 @@
 body {
-    background-color: lightblue;
+    background-color: gray;
 }
 
 h1 {
-    color: navy;
-    text-align: center;
+    font-size: 25px;
 }
 
 p {
     font-size: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+/*Header and NavBar*/
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: black;
+}
+
+.title {
+    margin: 0;
+}
+
+.header {
+    background-color: #f1f1f1;
+     padding: 30px; 
+    width: 100%;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+/*About Section*/
+
+.about-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+    text-align: left;
+    background-color: #474e5d;
+    color: gray;
+    height: 80vh;
+}
+
+.about-img {
+    width: 100%;
+    height: auto;
+}
+
+.about-text {
+    color: gray;
+}
+
+/*Skills Section*/
+.skills-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #f1f1f1;
+    color: gray;
+}
+
+/*Experience Section*/
+.experience-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: gray;
+}
+
+/*Contact Section*/
+.contact-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #f1f1f1;
+    color: gray;
 }
